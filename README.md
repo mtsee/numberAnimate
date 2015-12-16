@@ -13,9 +13,6 @@ var d = $(obj).numberAnimate(option); <br />
 d.resetData(new num);<br />  
 <br />  
 #案例如下<br />  
-//DOM<br />  
-<div class="numberRun"></div><br />  
-<br />  
 //JS<br />  
 var numRun = $(".numberRun").numberAnimate({num:'15343242.10', dot:2, speed:2000, symbol:","});<br />  
 var nums = 15343242.10;<br />  
