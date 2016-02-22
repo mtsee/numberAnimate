@@ -1,4 +1,5 @@
 #高效的数字滚动插件一枚,兼容到IE8+
+插件地址：[插件地址](http://www.mtsee.com/numberAnimate/)
 #使用方法：
 //默认参数<br />  
 option = { <br />  
