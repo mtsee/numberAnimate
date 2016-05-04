@@ -96,7 +96,8 @@
                 num = (num=="."?10:num);
                 var spanHei = $(this).height()/11; //11为元素个数
                 var thisTop = -num*spanHei+"px";
-                if(thisTop != $(this).css("top")){
+                var transform = $(this).css("transform");
+                if(transform=='none' || -num*spanHei != parseInt(transform.split(",")[5], 10)){
                     if(setting.iniAnimate){
                         //HTML5不支持
                         if(!window.applicationCache){
